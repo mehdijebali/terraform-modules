@@ -7,3 +7,8 @@ output "user_data" {
   value       = data.template_file.user_data.rendered
   description = "User data used to verify ssm agent installation"
 }
+
+output "instance_profile_name" {
+  value = aws_iam_instance_profile.ec2_profile.name
+  description = "Name of instance profile"
+}
