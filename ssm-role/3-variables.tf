@@ -1,3 +1,3 @@
 variable "INSTANCE_PROFILE_NAME" {
-    description = "Name of instance profile"
+  description = "Name of instance profile"
 }

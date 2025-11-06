@@ -11,14 +11,14 @@ variable "PUBLIC_RT_NAME" {
   description = "Name of public route table"
 }
 variable "AVAILABILITY_ZONES" {
-  type = list(any)
+  type        = list(any)
   description = "List of availability zones used for create subnets"
 }
 variable "SUBNET_NAMES" {
-  type = list(any)
+  type        = list(any)
   description = "List of subnets names"
 }
 variable "SUBNET_IPS" {
-  type = list(any)
+  type        = list(any)
   description = "List of subnets IPs"
 }

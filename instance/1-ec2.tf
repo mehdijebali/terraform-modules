@@ -1,8 +1,8 @@
 
 #Security Group for levelupvpc
 resource "aws_security_group" "instance-sg" {
-  vpc_id      = var.SG_VPC_ID
-  name        = "instance-sg"
+  vpc_id = var.SG_VPC_ID
+  name   = "instance-sg"
 
   egress {
     from_port   = 0
