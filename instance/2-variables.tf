@@ -19,3 +19,7 @@ variable "SG_VPC_ID" {
 variable "USER_DATA" {
   description = "User data used to init the instance (Create ssm agent)"
 }
+
+variable "INSTANCE_PROFILE_NAME" {
+  description = "Instance profile name"
+}
