@@ -17,15 +17,20 @@ No modules.
 
 | Name | Type |
 |------|------|
+| [aws_flow_log.vpc_to_s3](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/flow_log) | resource |
 | [aws_internet_gateway.demo-gw](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/internet_gateway) | resource |
 | [aws_route_table.demo-rt](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route_table) | resource |
 | [aws_route_table_association.public-A](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route_table_association) | resource |
 | [aws_route_table_association.public-B](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route_table_association) | resource |
+| [aws_s3_bucket.flow_logs_bucket](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket) | resource |
+| [aws_s3_bucket_policy.flow_logs_policy](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_policy) | resource |
+| [aws_s3_bucket_versioning.levelup-s3bucketversioning](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_versioning) | resource |
 | [aws_subnet.private-subnet-A](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet) | resource |
 | [aws_subnet.private-subnet-B](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet) | resource |
 | [aws_subnet.public-subnet-A](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet) | resource |
 | [aws_subnet.public-subnet-B](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet) | resource |
 | [aws_vpc.demo-vpc](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc) | resource |
+| [aws_caller_identity.current](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/caller_identity) | data source |
 
 ## Inputs
 
@@ -47,5 +52,6 @@ No modules.
 | <a name="output_private_subnet_A_id"></a> [private\_subnet\_A\_id](#output\_private\_subnet\_A\_id) | ID of private subnet |
 | <a name="output_private_subnet_B_id"></a> [private\_subnet\_B\_id](#output\_private\_subnet\_B\_id) | ID of public subnet |
 | <a name="output_public_subnet_A_id"></a> [public\_subnet\_A\_id](#output\_public\_subnet\_A\_id) | ID of public subnet |
+| <a name="output_public_subnet_B_id"></a> [public\_subnet\_B\_id](#output\_public\_subnet\_B\_id) | ID of public subnet |
 | <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | ID of VPC |
 <!-- END_TF_DOCS -->
