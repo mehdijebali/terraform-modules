@@ -1,6 +1,6 @@
 # Create S3 bucket to store the flow logs
 resource "aws_s3_bucket" "flow_logs_bucket" {
-  bucket = local.BUCKET_NAME
+  bucket = var.BUCKET_NAME
 }
 
 # Enable S3 Objects Versionning
