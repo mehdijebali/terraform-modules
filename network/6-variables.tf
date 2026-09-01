@@ -22,3 +22,8 @@ variable "SUBNET_IPS" {
   type        = list(any)
   description = "List of subnets IPs"
 }
+
+variable "BUCKET_NAME" {
+  type        = string
+  description = "S3 bucket name to store network logs"
+}
