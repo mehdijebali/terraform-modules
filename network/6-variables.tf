@@ -1,13 +1,16 @@
 variable "VPC_NAME" {
+  type        = string
   description = "Name of VPC"
 }
 variable "VPC_CIDR_BLOCK" {
   description = "Cidr blok used to create the VPC"
 }
 variable "GW_NAME" {
+  type        = string
   description = "Name of internet Gateway"
 }
 variable "PUBLIC_RT_NAME" {
+  type        = string
   description = "Name of public route table"
 }
 variable "AVAILABILITY_ZONES" {
